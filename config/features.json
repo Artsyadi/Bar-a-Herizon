@@ -1,0 +1,87 @@
+{
+  "_status": "Frozen for the submission. Values were set before training and only ever changed using the 6 development matches; the full feature list is docs/features_list.csv.",
+  "version": 1,
+  "fps": 25,
+  "train_stride_frames": 5,
+  "pitch_m_default": [
+    105.0,
+    68.0
+  ],
+  "_pitch_m_default": "IDSSE and Metrica pitches are 105 x 68 m; BAR-ATH (Phase 8) uses 105.3 x 68.0.",
+  "gating": {
+    "min_valid_players": 7,
+    "min_speed_share": 0.5,
+    "_note": "Quality columns gate features (NaN when coverage is too low); they are not model inputs (Rulebook 4.10)."
+  },
+  "windows": {
+    "rolling_mean_s": [
+      1,
+      5
+    ],
+    "change_half_window_s": 2,
+    "_note": "Centred rolling means and (next 2 s mean - previous 2 s mean). Never across a half boundary (Rulebook D3)."
+  },
+  "d_features": {
+    "slow_speed_mps": 2.0,
+    "active_speed_mps": 4.0,
+    "deceleration_lag_s": 1,
+    "shape_quantiles": [
+      0.1,
+      0.9
+    ],
+    "defensive_line_players": 4,
+    "shape_change_lag_s": 1,
+    "stability_lag_s": 2,
+    "centre_circle_m": 9.15,
+    "tight_group_radius_m": 1.2,
+    "tight_group_min_teammates": 2,
+    "tight_group_persist_s": 1,
+    "touchline_band_m": 5.0,
+    "penalty_area_depth_m": 16.5,
+    "penalty_area_half_width_m": 20.16,
+    "opponent_close_m": 2.0,
+    "following_min_speed_mps": 1.0
+  },
+  "ha_features": {
+    "ball_gap_cap_s": 10,
+    "ball_speed_change_lag_s": 0.4,
+    "near_radii_m": [
+      2.0,
+      5.0
+    ],
+    "carrier_min_speed_mps": 1.0,
+    "persistence_windows_s": [
+      1,
+      3
+    ],
+    "persist_radius_m": 2.0,
+    "last_margin_cap_s": 10
+  },
+  "excluded_inputs": {
+    "d_model": [
+      "ball_x",
+      "ball_y",
+      "ball_x_raw",
+      "ball_y_raw",
+      "ball_status",
+      "ball_flags",
+      "ball_conf",
+      "ball_quality",
+      "ball_track_break",
+      "ball_z",
+      "ball_speed_given_ms",
+      "n_track_breaks",
+      "n_duplicates_merged",
+      "n_speed_removed",
+      "valid_n_change"
+    ],
+    "ha_model": [
+      "ball_z",
+      "n_track_breaks",
+      "n_duplicates_merged",
+      "n_speed_removed",
+      "valid_n_change"
+    ],
+    "_note": "ball_z: BAR-ATH has no ball height. Quality counts: gating only."
+  }
+}

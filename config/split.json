@@ -1,0 +1,20 @@
+{
+  "_note": "Decided 11 Nov 2026, before any model results (roadmap section 1). Do not edit without a decision-log entry.",
+  "version": 1,
+  "decided": "2026-11-11",
+  "rule": "Final test match = the most typical of the 7 IDSSE matches by label statistics only (median dead-ball share 44.3% and possession count 421; mean possession 7.7 s vs median 7.2 s). No model results used.",
+  "dev_matches": ["idsse_J03WMX", "idsse_J03WN1", "idsse_J03WOH", "idsse_J03WOY", "idsse_J03WQQ", "idsse_J03WR9"],
+  "test_matches": ["idsse_J03WPY"],
+  "comparison_matches": ["metrica_game_1", "metrica_game_2", "metrica_game_3"],
+  "idsse_seeds": [1, 2, 3, 4, 5],
+  "cv": {
+    "kind": "leave_one_match_out",
+    "over": "dev_matches",
+    "group": "original match: every seed of a match stays on the same side"
+  },
+  "usage": {
+    "dev_matches": "training and every choice",
+    "test_matches": "scored once, step 7.2",
+    "comparison_matches": "scored at milestones only (steps 3.2 and 7.2); never used to choose settings"
+  }
+}

@@ -1,0 +1,22 @@
+# Match data and the organisers' repository: licensed for the competition only, never redistributed
+more-than-a-hack-2027/
+*.mp4
+
+# External training data (downloaded separately, see README)
+external/
+
+# Generated files
+outputs/
+data/
+runs/
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

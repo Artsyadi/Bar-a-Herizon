@@ -1,0 +1,380 @@
+name,model,group,rulebook,base,window,unit,description
+d_spd_activeshare_a,D,D1 collective activity,"4.3, C7.4.10",d_spd_activeshare_a,frame,share,share of players above the active speed
+d_spd_activeshare_a_chg2s,D,D1 collective activity,"4.3, C7.4.10",d_spd_activeshare_a,chg2s,share,share of players above the active speed
+d_spd_activeshare_a_m1s,D,D1 collective activity,"4.3, C7.4.10",d_spd_activeshare_a,m1s,share,share of players above the active speed
+d_spd_activeshare_a_m5s,D,D1 collective activity,"4.3, C7.4.10",d_spd_activeshare_a,m5s,share,share of players above the active speed
+d_spd_activeshare_h,D,D1 collective activity,"4.3, C7.4.10",d_spd_activeshare_h,frame,share,share of players above the active speed
+d_spd_activeshare_h_chg2s,D,D1 collective activity,"4.3, C7.4.10",d_spd_activeshare_h,chg2s,share,share of players above the active speed
+d_spd_activeshare_h_m1s,D,D1 collective activity,"4.3, C7.4.10",d_spd_activeshare_h,m1s,share,share of players above the active speed
+d_spd_activeshare_h_m5s,D,D1 collective activity,"4.3, C7.4.10",d_spd_activeshare_h,m5s,share,share of players above the active speed
+d_spd_mean_a,D,D1 collective activity,"4.3, C7.4.10",d_spd_mean_a,frame,m/s,mean player speed
+d_spd_mean_a_chg2s,D,D1 collective activity,"4.3, C7.4.10",d_spd_mean_a,chg2s,m/s,mean player speed
+d_spd_mean_a_m1s,D,D1 collective activity,"4.3, C7.4.10",d_spd_mean_a,m1s,m/s,mean player speed
+d_spd_mean_a_m5s,D,D1 collective activity,"4.3, C7.4.10",d_spd_mean_a,m5s,m/s,mean player speed
+d_spd_mean_h,D,D1 collective activity,"4.3, C7.4.10",d_spd_mean_h,frame,m/s,mean player speed
+d_spd_mean_h_chg2s,D,D1 collective activity,"4.3, C7.4.10",d_spd_mean_h,chg2s,m/s,mean player speed
+d_spd_mean_h_m1s,D,D1 collective activity,"4.3, C7.4.10",d_spd_mean_h,m1s,m/s,mean player speed
+d_spd_mean_h_m5s,D,D1 collective activity,"4.3, C7.4.10",d_spd_mean_h,m5s,m/s,mean player speed
+d_spd_median_a,D,D1 collective activity,"4.3, C7.4.10",d_spd_median_a,frame,m/s,median player speed
+d_spd_median_a_chg2s,D,D1 collective activity,"4.3, C7.4.10",d_spd_median_a,chg2s,m/s,median player speed
+d_spd_median_a_m1s,D,D1 collective activity,"4.3, C7.4.10",d_spd_median_a,m1s,m/s,median player speed
+d_spd_median_a_m5s,D,D1 collective activity,"4.3, C7.4.10",d_spd_median_a,m5s,m/s,median player speed
+d_spd_median_h,D,D1 collective activity,"4.3, C7.4.10",d_spd_median_h,frame,m/s,median player speed
+d_spd_median_h_chg2s,D,D1 collective activity,"4.3, C7.4.10",d_spd_median_h,chg2s,m/s,median player speed
+d_spd_median_h_m1s,D,D1 collective activity,"4.3, C7.4.10",d_spd_median_h,m1s,m/s,median player speed
+d_spd_median_h_m5s,D,D1 collective activity,"4.3, C7.4.10",d_spd_median_h,m5s,m/s,median player speed
+d_spd_slowshare_a,D,D1 collective activity,"4.3, C7.4.10",d_spd_slowshare_a,frame,share,share of players below the slow speed
+d_spd_slowshare_a_chg2s,D,D1 collective activity,"4.3, C7.4.10",d_spd_slowshare_a,chg2s,share,share of players below the slow speed
+d_spd_slowshare_a_m1s,D,D1 collective activity,"4.3, C7.4.10",d_spd_slowshare_a,m1s,share,share of players below the slow speed
+d_spd_slowshare_a_m5s,D,D1 collective activity,"4.3, C7.4.10",d_spd_slowshare_a,m5s,share,share of players below the slow speed
+d_spd_slowshare_h,D,D1 collective activity,"4.3, C7.4.10",d_spd_slowshare_h,frame,share,share of players below the slow speed
+d_spd_slowshare_h_chg2s,D,D1 collective activity,"4.3, C7.4.10",d_spd_slowshare_h,chg2s,share,share of players below the slow speed
+d_spd_slowshare_h_m1s,D,D1 collective activity,"4.3, C7.4.10",d_spd_slowshare_h,m1s,share,share of players below the slow speed
+d_spd_slowshare_h_m5s,D,D1 collective activity,"4.3, C7.4.10",d_spd_slowshare_h,m5s,share,share of players below the slow speed
+d_touch_share_a,D,D10 touchline clustering,4.6,d_touch_share_a,frame,share,share of players within 5 m of a touchline
+d_touch_share_a_chg2s,D,D10 touchline clustering,4.6,d_touch_share_a,chg2s,share,share of players within 5 m of a touchline
+d_touch_share_a_m1s,D,D10 touchline clustering,4.6,d_touch_share_a,m1s,share,share of players within 5 m of a touchline
+d_touch_share_a_m5s,D,D10 touchline clustering,4.6,d_touch_share_a,m5s,share,share of players within 5 m of a touchline
+d_touch_share_h,D,D10 touchline clustering,4.6,d_touch_share_h,frame,share,share of players within 5 m of a touchline
+d_touch_share_h_chg2s,D,D10 touchline clustering,4.6,d_touch_share_h,chg2s,share,share of players within 5 m of a touchline
+d_touch_share_h_m1s,D,D10 touchline clustering,4.6,d_touch_share_h,m1s,share,share of players within 5 m of a touchline
+d_touch_share_h_m5s,D,D10 touchline clustering,4.6,d_touch_share_h,m5s,share,share of players within 5 m of a touchline
+d_pa_homeopp_away,D,D11 penalty-area clustering,4.7,d_pa_homeopp_away,frame,players,away players in the penalty area (homeopp)
+d_pa_homeopp_away_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_away,chg2s,players,away players in the penalty area (homeopp)
+d_pa_homeopp_away_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_away,m1s,players,away players in the penalty area (homeopp)
+d_pa_homeopp_away_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_away,m5s,players,away players in the penalty area (homeopp)
+d_pa_homeopp_home,D,D11 penalty-area clustering,4.7,d_pa_homeopp_home,frame,players,home players in the penalty area (homeopp)
+d_pa_homeopp_home_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_home,chg2s,players,home players in the penalty area (homeopp)
+d_pa_homeopp_home_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_home,m1s,players,home players in the penalty area (homeopp)
+d_pa_homeopp_home_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_home,m5s,players,home players in the penalty area (homeopp)
+d_pa_homeopp_spacing,D,D11 penalty-area clustering,4.7,d_pa_homeopp_spacing,frame,m,mean nearest-neighbour distance inside the area
+d_pa_homeopp_spacing_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_spacing,chg2s,m,mean nearest-neighbour distance inside the area
+d_pa_homeopp_spacing_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_spacing,m1s,m,mean nearest-neighbour distance inside the area
+d_pa_homeopp_spacing_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_spacing,m5s,m,mean nearest-neighbour distance inside the area
+d_pa_homeopp_speed,D,D11 penalty-area clustering,4.7,d_pa_homeopp_speed,frame,m/s,mean speed inside the area
+d_pa_homeopp_speed_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_speed,chg2s,m/s,mean speed inside the area
+d_pa_homeopp_speed_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_speed,m1s,m/s,mean speed inside the area
+d_pa_homeopp_speed_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_speed,m5s,m/s,mean speed inside the area
+d_pa_homeopp_total,D,D11 penalty-area clustering,4.7,d_pa_homeopp_total,frame,players,players of both teams in the penalty area (homeopp)
+d_pa_homeopp_total_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_total,chg2s,players,players of both teams in the penalty area (homeopp)
+d_pa_homeopp_total_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_total,m1s,players,players of both teams in the penalty area (homeopp)
+d_pa_homeopp_total_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeopp_total,m5s,players,players of both teams in the penalty area (homeopp)
+d_pa_homeown_away,D,D11 penalty-area clustering,4.7,d_pa_homeown_away,frame,players,away players in the penalty area (homeown)
+d_pa_homeown_away_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeown_away,chg2s,players,away players in the penalty area (homeown)
+d_pa_homeown_away_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeown_away,m1s,players,away players in the penalty area (homeown)
+d_pa_homeown_away_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeown_away,m5s,players,away players in the penalty area (homeown)
+d_pa_homeown_home,D,D11 penalty-area clustering,4.7,d_pa_homeown_home,frame,players,home players in the penalty area (homeown)
+d_pa_homeown_home_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeown_home,chg2s,players,home players in the penalty area (homeown)
+d_pa_homeown_home_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeown_home,m1s,players,home players in the penalty area (homeown)
+d_pa_homeown_home_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeown_home,m5s,players,home players in the penalty area (homeown)
+d_pa_homeown_spacing,D,D11 penalty-area clustering,4.7,d_pa_homeown_spacing,frame,m,mean nearest-neighbour distance inside the area
+d_pa_homeown_spacing_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeown_spacing,chg2s,m,mean nearest-neighbour distance inside the area
+d_pa_homeown_spacing_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeown_spacing,m1s,m,mean nearest-neighbour distance inside the area
+d_pa_homeown_spacing_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeown_spacing,m5s,m,mean nearest-neighbour distance inside the area
+d_pa_homeown_speed,D,D11 penalty-area clustering,4.7,d_pa_homeown_speed,frame,m/s,mean speed inside the area
+d_pa_homeown_speed_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeown_speed,chg2s,m/s,mean speed inside the area
+d_pa_homeown_speed_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeown_speed,m1s,m/s,mean speed inside the area
+d_pa_homeown_speed_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeown_speed,m5s,m/s,mean speed inside the area
+d_pa_homeown_total,D,D11 penalty-area clustering,4.7,d_pa_homeown_total,frame,players,players of both teams in the penalty area (homeown)
+d_pa_homeown_total_chg2s,D,D11 penalty-area clustering,4.7,d_pa_homeown_total,chg2s,players,players of both teams in the penalty area (homeown)
+d_pa_homeown_total_m1s,D,D11 penalty-area clustering,4.7,d_pa_homeown_total,m1s,players,players of both teams in the penalty area (homeown)
+d_pa_homeown_total_m5s,D,D11 penalty-area clustering,4.7,d_pa_homeown_total,m5s,players,players of both teams in the penalty area (homeown)
+d_mut_closeshare_a,D,D12 local mutual movement,4.9,d_mut_closeshare_a,frame,share,share of players with an opponent within 2 m
+d_mut_closeshare_a_chg2s,D,D12 local mutual movement,4.9,d_mut_closeshare_a,chg2s,share,share of players with an opponent within 2 m
+d_mut_closeshare_a_m1s,D,D12 local mutual movement,4.9,d_mut_closeshare_a,m1s,share,share of players with an opponent within 2 m
+d_mut_closeshare_a_m5s,D,D12 local mutual movement,4.9,d_mut_closeshare_a,m5s,share,share of players with an opponent within 2 m
+d_mut_closeshare_h,D,D12 local mutual movement,4.9,d_mut_closeshare_h,frame,share,share of players with an opponent within 2 m
+d_mut_closeshare_h_chg2s,D,D12 local mutual movement,4.9,d_mut_closeshare_h,chg2s,share,share of players with an opponent within 2 m
+d_mut_closeshare_h_m1s,D,D12 local mutual movement,4.9,d_mut_closeshare_h,m1s,share,share of players with an opponent within 2 m
+d_mut_closeshare_h_m5s,D,D12 local mutual movement,4.9,d_mut_closeshare_h,m5s,share,share of players with an opponent within 2 m
+d_mut_closing_a,D,D12 local mutual movement,4.9,d_mut_closing_a,frame,m/s,mean closing speed to nearest opponent (negative = closing)
+d_mut_closing_a_chg2s,D,D12 local mutual movement,4.9,d_mut_closing_a,chg2s,m/s,mean closing speed to nearest opponent (negative = closing)
+d_mut_closing_a_m1s,D,D12 local mutual movement,4.9,d_mut_closing_a,m1s,m/s,mean closing speed to nearest opponent (negative = closing)
+d_mut_closing_a_m5s,D,D12 local mutual movement,4.9,d_mut_closing_a,m5s,m/s,mean closing speed to nearest opponent (negative = closing)
+d_mut_closing_h,D,D12 local mutual movement,4.9,d_mut_closing_h,frame,m/s,mean closing speed to nearest opponent (negative = closing)
+d_mut_closing_h_chg2s,D,D12 local mutual movement,4.9,d_mut_closing_h,chg2s,m/s,mean closing speed to nearest opponent (negative = closing)
+d_mut_closing_h_m1s,D,D12 local mutual movement,4.9,d_mut_closing_h,m1s,m/s,mean closing speed to nearest opponent (negative = closing)
+d_mut_closing_h_m5s,D,D12 local mutual movement,4.9,d_mut_closing_h,m5s,m/s,mean closing speed to nearest opponent (negative = closing)
+d_mut_following_a,D,D12 local mutual movement,4.9,d_mut_following_a,frame,cosine,mean cosine between own and nearest opponent's velocity (both moving)
+d_mut_following_a_chg2s,D,D12 local mutual movement,4.9,d_mut_following_a,chg2s,cosine,mean cosine between own and nearest opponent's velocity (both moving)
+d_mut_following_a_m1s,D,D12 local mutual movement,4.9,d_mut_following_a,m1s,cosine,mean cosine between own and nearest opponent's velocity (both moving)
+d_mut_following_a_m5s,D,D12 local mutual movement,4.9,d_mut_following_a,m5s,cosine,mean cosine between own and nearest opponent's velocity (both moving)
+d_mut_following_h,D,D12 local mutual movement,4.9,d_mut_following_h,frame,cosine,mean cosine between own and nearest opponent's velocity (both moving)
+d_mut_following_h_chg2s,D,D12 local mutual movement,4.9,d_mut_following_h,chg2s,cosine,mean cosine between own and nearest opponent's velocity (both moving)
+d_mut_following_h_m1s,D,D12 local mutual movement,4.9,d_mut_following_h,m1s,cosine,mean cosine between own and nearest opponent's velocity (both moving)
+d_mut_following_h_m5s,D,D12 local mutual movement,4.9,d_mut_following_h,m5s,cosine,mean cosine between own and nearest opponent's velocity (both moving)
+d_mut_nnopp_a,D,D12 local mutual movement,4.9,d_mut_nnopp_a,frame,m,mean distance to nearest opponent
+d_mut_nnopp_a_chg2s,D,D12 local mutual movement,4.9,d_mut_nnopp_a,chg2s,m,mean distance to nearest opponent
+d_mut_nnopp_a_m1s,D,D12 local mutual movement,4.9,d_mut_nnopp_a,m1s,m,mean distance to nearest opponent
+d_mut_nnopp_a_m5s,D,D12 local mutual movement,4.9,d_mut_nnopp_a,m5s,m,mean distance to nearest opponent
+d_mut_nnopp_h,D,D12 local mutual movement,4.9,d_mut_nnopp_h,frame,m,mean distance to nearest opponent
+d_mut_nnopp_h_chg2s,D,D12 local mutual movement,4.9,d_mut_nnopp_h,chg2s,m,mean distance to nearest opponent
+d_mut_nnopp_h_m1s,D,D12 local mutual movement,4.9,d_mut_nnopp_h,m1s,m,mean distance to nearest opponent
+d_mut_nnopp_h_m5s,D,D12 local mutual movement,4.9,d_mut_nnopp_h,m5s,m,mean distance to nearest opponent
+d_both_median_absdiff,D,D2 coordinated slowing,4.3,d_both_median_absdiff,frame,m/s,difference between the team median speeds
+d_both_median_absdiff_chg2s,D,D2 coordinated slowing,4.3,d_both_median_absdiff,chg2s,m/s,difference between the team median speeds
+d_both_median_absdiff_m1s,D,D2 coordinated slowing,4.3,d_both_median_absdiff,m1s,m/s,difference between the team median speeds
+d_both_median_absdiff_m5s,D,D2 coordinated slowing,4.3,d_both_median_absdiff,m5s,m/s,difference between the team median speeds
+d_both_median_max,D,D2 coordinated slowing,4.3,d_both_median_max,frame,m/s,higher of the two team median speeds
+d_both_median_max_chg2s,D,D2 coordinated slowing,4.3,d_both_median_max,chg2s,m/s,higher of the two team median speeds
+d_both_median_max_m1s,D,D2 coordinated slowing,4.3,d_both_median_max,m1s,m/s,higher of the two team median speeds
+d_both_median_max_m5s,D,D2 coordinated slowing,4.3,d_both_median_max,m5s,m/s,higher of the two team median speeds
+d_both_median_min,D,D2 coordinated slowing,4.3,d_both_median_min,frame,m/s,lower of the two team median speeds
+d_both_median_min_chg2s,D,D2 coordinated slowing,4.3,d_both_median_min,chg2s,m/s,lower of the two team median speeds
+d_both_median_min_m1s,D,D2 coordinated slowing,4.3,d_both_median_min,m1s,m/s,lower of the two team median speeds
+d_both_median_min_m5s,D,D2 coordinated slowing,4.3,d_both_median_min,m5s,m/s,lower of the two team median speeds
+d_both_slowshare_min,D,D2 coordinated slowing,4.3,d_both_slowshare_min,frame,share,lower of the two slow shares (both teams slow together)
+d_both_slowshare_min_chg2s,D,D2 coordinated slowing,4.3,d_both_slowshare_min,chg2s,share,lower of the two slow shares (both teams slow together)
+d_both_slowshare_min_m1s,D,D2 coordinated slowing,4.3,d_both_slowshare_min,m1s,share,lower of the two slow shares (both teams slow together)
+d_both_slowshare_min_m5s,D,D2 coordinated slowing,4.3,d_both_slowshare_min,m5s,share,lower of the two slow shares (both teams slow together)
+d_dec_median_a,D,D3 deceleration,4.3,d_dec_median_a,frame,m/s,median speed now minus 1 s earlier
+d_dec_median_a_chg2s,D,D3 deceleration,4.3,d_dec_median_a,chg2s,m/s,median speed now minus 1 s earlier
+d_dec_median_a_m1s,D,D3 deceleration,4.3,d_dec_median_a,m1s,m/s,median speed now minus 1 s earlier
+d_dec_median_a_m5s,D,D3 deceleration,4.3,d_dec_median_a,m5s,m/s,median speed now minus 1 s earlier
+d_dec_median_h,D,D3 deceleration,4.3,d_dec_median_h,frame,m/s,median speed now minus 1 s earlier
+d_dec_median_h_chg2s,D,D3 deceleration,4.3,d_dec_median_h,chg2s,m/s,median speed now minus 1 s earlier
+d_dec_median_h_m1s,D,D3 deceleration,4.3,d_dec_median_h,m1s,m/s,median speed now minus 1 s earlier
+d_dec_median_h_m5s,D,D3 deceleration,4.3,d_dec_median_h,m5s,m/s,median speed now minus 1 s earlier
+d_shape_abscy_a,D,D4 shape,"4.8, C7.4.1-4",d_shape_abscy_a,frame,m,centroid distance from the long axis
+d_shape_abscy_a_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_abscy_a,chg2s,m,centroid distance from the long axis
+d_shape_abscy_a_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_abscy_a,m1s,m,centroid distance from the long axis
+d_shape_abscy_a_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_abscy_a,m5s,m,centroid distance from the long axis
+d_shape_abscy_h,D,D4 shape,"4.8, C7.4.1-4",d_shape_abscy_h,frame,m,centroid distance from the long axis
+d_shape_abscy_h_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_abscy_h,chg2s,m,centroid distance from the long axis
+d_shape_abscy_h_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_abscy_h,m1s,m,centroid distance from the long axis
+d_shape_abscy_h_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_abscy_h,m5s,m,centroid distance from the long axis
+d_shape_compact_a,D,D4 shape,"4.8, C7.4.1-4",d_shape_compact_a,frame,m,mean distance to team centroid
+d_shape_compact_a_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_compact_a,chg2s,m,mean distance to team centroid
+d_shape_compact_a_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_compact_a,m1s,m,mean distance to team centroid
+d_shape_compact_a_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_compact_a,m5s,m,mean distance to team centroid
+d_shape_compact_h,D,D4 shape,"4.8, C7.4.1-4",d_shape_compact_h,frame,m,mean distance to team centroid
+d_shape_compact_h_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_compact_h,chg2s,m,mean distance to team centroid
+d_shape_compact_h_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_compact_h,m1s,m,mean distance to team centroid
+d_shape_compact_h_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_compact_h,m5s,m,mean distance to team centroid
+d_shape_cx_a,D,D4 shape,"4.8, C7.4.1-4",d_shape_cx_a,frame,m,"centroid x, + towards opponent goal"
+d_shape_cx_a_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_cx_a,chg2s,m,"centroid x, + towards opponent goal"
+d_shape_cx_a_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_cx_a,m1s,m,"centroid x, + towards opponent goal"
+d_shape_cx_a_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_cx_a,m5s,m,"centroid x, + towards opponent goal"
+d_shape_cx_h,D,D4 shape,"4.8, C7.4.1-4",d_shape_cx_h,frame,m,"centroid x, + towards opponent goal"
+d_shape_cx_h_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_cx_h,chg2s,m,"centroid x, + towards opponent goal"
+d_shape_cx_h_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_cx_h,m1s,m,"centroid x, + towards opponent goal"
+d_shape_cx_h_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_cx_h,m5s,m,"centroid x, + towards opponent goal"
+d_shape_depth_a,D,D4 shape,"4.8, C7.4.1-4",d_shape_depth_a,frame,m,x spread (10th-90th percentile)
+d_shape_depth_a_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_depth_a,chg2s,m,x spread (10th-90th percentile)
+d_shape_depth_a_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_depth_a,m1s,m,x spread (10th-90th percentile)
+d_shape_depth_a_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_depth_a,m5s,m,x spread (10th-90th percentile)
+d_shape_depth_h,D,D4 shape,"4.8, C7.4.1-4",d_shape_depth_h,frame,m,x spread (10th-90th percentile)
+d_shape_depth_h_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_depth_h,chg2s,m,x spread (10th-90th percentile)
+d_shape_depth_h_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_depth_h,m1s,m,x spread (10th-90th percentile)
+d_shape_depth_h_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_depth_h,m5s,m,x spread (10th-90th percentile)
+d_shape_width_a,D,D4 shape,"4.8, C7.4.1-4",d_shape_width_a,frame,m,y spread (10th-90th percentile)
+d_shape_width_a_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_width_a,chg2s,m,y spread (10th-90th percentile)
+d_shape_width_a_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_width_a,m1s,m,y spread (10th-90th percentile)
+d_shape_width_a_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_width_a,m5s,m,y spread (10th-90th percentile)
+d_shape_width_h,D,D4 shape,"4.8, C7.4.1-4",d_shape_width_h,frame,m,y spread (10th-90th percentile)
+d_shape_width_h_chg2s,D,D4 shape,"4.8, C7.4.1-4",d_shape_width_h,chg2s,m,y spread (10th-90th percentile)
+d_shape_width_h_m1s,D,D4 shape,"4.8, C7.4.1-4",d_shape_width_h,m1s,m,y spread (10th-90th percentile)
+d_shape_width_h_m5s,D,D4 shape,"4.8, C7.4.1-4",d_shape_width_h,m5s,m,y spread (10th-90th percentile)
+d_line_height_a,D,D5 defensive line,C7.4.6,d_line_height_a,frame,m,mean distance of the 4 deepest outfield players to own goal line
+d_line_height_a_chg2s,D,D5 defensive line,C7.4.6,d_line_height_a,chg2s,m,mean distance of the 4 deepest outfield players to own goal line
+d_line_height_a_m1s,D,D5 defensive line,C7.4.6,d_line_height_a,m1s,m,mean distance of the 4 deepest outfield players to own goal line
+d_line_height_a_m5s,D,D5 defensive line,C7.4.6,d_line_height_a,m5s,m,mean distance of the 4 deepest outfield players to own goal line
+d_line_height_h,D,D5 defensive line,C7.4.6,d_line_height_h,frame,m,mean distance of the 4 deepest outfield players to own goal line
+d_line_height_h_chg2s,D,D5 defensive line,C7.4.6,d_line_height_h,chg2s,m,mean distance of the 4 deepest outfield players to own goal line
+d_line_height_h_m1s,D,D5 defensive line,C7.4.6,d_line_height_h,m1s,m,mean distance of the 4 deepest outfield players to own goal line
+d_line_height_h_m5s,D,D5 defensive line,C7.4.6,d_line_height_h,m5s,m,mean distance of the 4 deepest outfield players to own goal line
+d_terr_opphalf_a,D,D6 territory,C7.4.7,d_terr_opphalf_a,frame,share,share of players in the opponent half
+d_terr_opphalf_a_chg2s,D,D6 territory,C7.4.7,d_terr_opphalf_a,chg2s,share,share of players in the opponent half
+d_terr_opphalf_a_m1s,D,D6 territory,C7.4.7,d_terr_opphalf_a,m1s,share,share of players in the opponent half
+d_terr_opphalf_a_m5s,D,D6 territory,C7.4.7,d_terr_opphalf_a,m5s,share,share of players in the opponent half
+d_terr_opphalf_h,D,D6 territory,C7.4.7,d_terr_opphalf_h,frame,share,share of players in the opponent half
+d_terr_opphalf_h_chg2s,D,D6 territory,C7.4.7,d_terr_opphalf_h,chg2s,share,share of players in the opponent half
+d_terr_opphalf_h_m1s,D,D6 territory,C7.4.7,d_terr_opphalf_h,m1s,share,share of players in the opponent half
+d_terr_opphalf_h_m5s,D,D6 territory,C7.4.7,d_terr_opphalf_h,m5s,share,share of players in the opponent half
+d_stab_centroid_move_a,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_centroid_move_a,frame,m,centroid displacement over 1 s
+d_stab_centroid_move_a_chg2s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_centroid_move_a,chg2s,m,centroid displacement over 1 s
+d_stab_centroid_move_a_m1s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_centroid_move_a,m1s,m,centroid displacement over 1 s
+d_stab_centroid_move_a_m5s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_centroid_move_a,m5s,m,centroid displacement over 1 s
+d_stab_centroid_move_h,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_centroid_move_h,frame,m,centroid displacement over 1 s
+d_stab_centroid_move_h_chg2s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_centroid_move_h,chg2s,m,centroid displacement over 1 s
+d_stab_centroid_move_h_m1s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_centroid_move_h,m1s,m,centroid displacement over 1 s
+d_stab_centroid_move_h_m5s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_centroid_move_h,m5s,m,centroid displacement over 1 s
+d_stab_depth_change_a,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_depth_change_a,frame,m,absolute depth change over 1 s
+d_stab_depth_change_a_chg2s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_depth_change_a,chg2s,m,absolute depth change over 1 s
+d_stab_depth_change_a_m1s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_depth_change_a,m1s,m,absolute depth change over 1 s
+d_stab_depth_change_a_m5s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_depth_change_a,m5s,m,absolute depth change over 1 s
+d_stab_depth_change_h,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_depth_change_h,frame,m,absolute depth change over 1 s
+d_stab_depth_change_h_chg2s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_depth_change_h,chg2s,m,absolute depth change over 1 s
+d_stab_depth_change_h_m1s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_depth_change_h,m1s,m,absolute depth change over 1 s
+d_stab_depth_change_h_m5s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_depth_change_h,m5s,m,absolute depth change over 1 s
+d_stab_player_move_a,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_player_move_a,frame,m,mean player displacement over 2 s
+d_stab_player_move_a_chg2s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_player_move_a,chg2s,m,mean player displacement over 2 s
+d_stab_player_move_a_m1s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_player_move_a,m1s,m,mean player displacement over 2 s
+d_stab_player_move_a_m5s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_player_move_a,m5s,m,mean player displacement over 2 s
+d_stab_player_move_h,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_player_move_h,frame,m,mean player displacement over 2 s
+d_stab_player_move_h_chg2s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_player_move_h,chg2s,m,mean player displacement over 2 s
+d_stab_player_move_h_m1s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_player_move_h,m1s,m,mean player displacement over 2 s
+d_stab_player_move_h_m5s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_player_move_h,m5s,m,mean player displacement over 2 s
+d_stab_width_change_a,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_width_change_a,frame,m,absolute width change over 1 s
+d_stab_width_change_a_chg2s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_width_change_a,chg2s,m,absolute width change over 1 s
+d_stab_width_change_a_m1s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_width_change_a,m1s,m,absolute width change over 1 s
+d_stab_width_change_a_m5s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_width_change_a,m5s,m,absolute width change over 1 s
+d_stab_width_change_h,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_width_change_h,frame,m,absolute width change over 1 s
+d_stab_width_change_h_chg2s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_width_change_h,chg2s,m,absolute width change over 1 s
+d_stab_width_change_h_m1s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_width_change_h,m1s,m,absolute width change over 1 s
+d_stab_width_change_h_m5s,D,D7 shape change and stability,"4.8, C7.4.9",d_stab_width_change_h,m5s,m,absolute width change over 1 s
+d_ko_centre_count,D,D8 kick-off shape,4.4,d_ko_centre_count,frame,players,players of either team within 9.15 m of the centre spot
+d_ko_centre_count_chg2s,D,D8 kick-off shape,4.4,d_ko_centre_count,chg2s,players,players of either team within 9.15 m of the centre spot
+d_ko_centre_count_m1s,D,D8 kick-off shape,4.4,d_ko_centre_count,m1s,players,players of either team within 9.15 m of the centre spot
+d_ko_centre_count_m5s,D,D8 kick-off shape,4.4,d_ko_centre_count,m5s,players,players of either team within 9.15 m of the centre spot
+d_ko_ownhalf_a,D,D8 kick-off shape,4.4,d_ko_ownhalf_a,frame,share,share of players in own half
+d_ko_ownhalf_a_chg2s,D,D8 kick-off shape,4.4,d_ko_ownhalf_a,chg2s,share,share of players in own half
+d_ko_ownhalf_a_m1s,D,D8 kick-off shape,4.4,d_ko_ownhalf_a,m1s,share,share of players in own half
+d_ko_ownhalf_a_m5s,D,D8 kick-off shape,4.4,d_ko_ownhalf_a,m5s,share,share of players in own half
+d_ko_ownhalf_h,D,D8 kick-off shape,4.4,d_ko_ownhalf_h,frame,share,share of players in own half
+d_ko_ownhalf_h_chg2s,D,D8 kick-off shape,4.4,d_ko_ownhalf_h,chg2s,share,share of players in own half
+d_ko_ownhalf_h_m1s,D,D8 kick-off shape,4.4,d_ko_ownhalf_h,m1s,share,share of players in own half
+d_ko_ownhalf_h_m5s,D,D8 kick-off shape,4.4,d_ko_ownhalf_h,m5s,share,share of players in own half
+d_ko_ownhalf_min,D,D8 kick-off shape,4.4,d_ko_ownhalf_min,frame,share,lower of the two own-half shares (both teams in own halves)
+d_ko_ownhalf_min_chg2s,D,D8 kick-off shape,4.4,d_ko_ownhalf_min,chg2s,share,lower of the two own-half shares (both teams in own halves)
+d_ko_ownhalf_min_m1s,D,D8 kick-off shape,4.4,d_ko_ownhalf_min,m1s,share,lower of the two own-half shares (both teams in own halves)
+d_ko_ownhalf_min_m5s,D,D8 kick-off shape,4.4,d_ko_ownhalf_min,m5s,share,lower of the two own-half shares (both teams in own halves)
+d_tight_count_a,D,D9 tight groups,4.5,d_tight_count_a,frame,players,"players in a tight group (>= 2 teammates within 1.2 m, or within 1.2 m of such a player)"
+d_tight_count_a_chg2s,D,D9 tight groups,4.5,d_tight_count_a,chg2s,players,"players in a tight group (>= 2 teammates within 1.2 m, or within 1.2 m of such a player)"
+d_tight_count_a_m1s,D,D9 tight groups,4.5,d_tight_count_a,m1s,players,"players in a tight group (>= 2 teammates within 1.2 m, or within 1.2 m of such a player)"
+d_tight_count_a_m5s,D,D9 tight groups,4.5,d_tight_count_a,m5s,players,"players in a tight group (>= 2 teammates within 1.2 m, or within 1.2 m of such a player)"
+d_tight_count_h,D,D9 tight groups,4.5,d_tight_count_h,frame,players,"players in a tight group (>= 2 teammates within 1.2 m, or within 1.2 m of such a player)"
+d_tight_count_h_chg2s,D,D9 tight groups,4.5,d_tight_count_h,chg2s,players,"players in a tight group (>= 2 teammates within 1.2 m, or within 1.2 m of such a player)"
+d_tight_count_h_m1s,D,D9 tight groups,4.5,d_tight_count_h,m1s,players,"players in a tight group (>= 2 teammates within 1.2 m, or within 1.2 m of such a player)"
+d_tight_count_h_m5s,D,D9 tight groups,4.5,d_tight_count_h,m5s,players,"players in a tight group (>= 2 teammates within 1.2 m, or within 1.2 m of such a player)"
+d_tight_goaldist_a,D,D9 tight groups,4.5,d_tight_goaldist_a,frame,m,distance of the tight group's centre to own goal (NaN if no group)
+d_tight_goaldist_a_chg2s,D,D9 tight groups,4.5,d_tight_goaldist_a,chg2s,m,distance of the tight group's centre to own goal (NaN if no group)
+d_tight_goaldist_a_m1s,D,D9 tight groups,4.5,d_tight_goaldist_a,m1s,m,distance of the tight group's centre to own goal (NaN if no group)
+d_tight_goaldist_a_m5s,D,D9 tight groups,4.5,d_tight_goaldist_a,m5s,m,distance of the tight group's centre to own goal (NaN if no group)
+d_tight_goaldist_h,D,D9 tight groups,4.5,d_tight_goaldist_h,frame,m,distance of the tight group's centre to own goal (NaN if no group)
+d_tight_goaldist_h_chg2s,D,D9 tight groups,4.5,d_tight_goaldist_h,chg2s,m,distance of the tight group's centre to own goal (NaN if no group)
+d_tight_goaldist_h_m1s,D,D9 tight groups,4.5,d_tight_goaldist_h,m1s,m,distance of the tight group's centre to own goal (NaN if no group)
+d_tight_goaldist_h_m5s,D,D9 tight groups,4.5,d_tight_goaldist_h,m5s,m,distance of the tight group's centre to own goal (NaN if no group)
+d_tight_persist_a,D,D9 tight groups,4.5,d_tight_persist_a,frame,share,share of the last 1 s with a tight group of >= 3
+d_tight_persist_a_chg2s,D,D9 tight groups,4.5,d_tight_persist_a,chg2s,share,share of the last 1 s with a tight group of >= 3
+d_tight_persist_a_m1s,D,D9 tight groups,4.5,d_tight_persist_a,m1s,share,share of the last 1 s with a tight group of >= 3
+d_tight_persist_a_m5s,D,D9 tight groups,4.5,d_tight_persist_a,m5s,share,share of the last 1 s with a tight group of >= 3
+d_tight_persist_h,D,D9 tight groups,4.5,d_tight_persist_h,frame,share,share of the last 1 s with a tight group of >= 3
+d_tight_persist_h_chg2s,D,D9 tight groups,4.5,d_tight_persist_h,chg2s,share,share of the last 1 s with a tight group of >= 3
+d_tight_persist_h_m1s,D,D9 tight groups,4.5,d_tight_persist_h,m1s,share,share of the last 1 s with a tight group of >= 3
+d_tight_persist_h_m5s,D,D9 tight groups,4.5,d_tight_persist_h,m5s,share,share of the last 1 s with a tight group of >= 3
+ha_ball_conf,HA,A1 ball state,"1.7, C7.6",ha_ball_conf,frame,0-1,cleaner confidence of the ball position
+ha_ball_since_obs_s,HA,A1 ball state,"1.7, C7.6",ha_ball_since_obs_s,frame,s,seconds since the ball was last observed (capped)
+ha_ball_status,HA,A1 ball state,"1.7, C7.6",ha_ball_status,frame,code,"0 observed, 1 estimated, 2 unavailable"
+ha_ball_until_obs_s,HA,A1 ball state,"1.7, C7.6",ha_ball_until_obs_s,frame,s,seconds until the ball is next observed (capped)
+ha_bmot_dspeed,HA,A2 ball motion,C7.3a,ha_bmot_dspeed,frame,m/s,outgoing minus incoming ball speed
+ha_bmot_dspeed_chg2s,HA,A2 ball motion,C7.3a,ha_bmot_dspeed,chg2s,m/s,outgoing minus incoming ball speed
+ha_bmot_dspeed_m1s,HA,A2 ball motion,C7.3a,ha_bmot_dspeed,m1s,m/s,outgoing minus incoming ball speed
+ha_bmot_dspeed_m5s,HA,A2 ball motion,C7.3a,ha_bmot_dspeed,m5s,m/s,outgoing minus incoming ball speed
+ha_bmot_dv,HA,A2 ball motion,C7.3a,ha_bmot_dv,frame,m/s,"change of ball velocity, outgoing vs incoming over 0.4 s"
+ha_bmot_dv_chg2s,HA,A2 ball motion,C7.3a,ha_bmot_dv,chg2s,m/s,"change of ball velocity, outgoing vs incoming over 0.4 s"
+ha_bmot_dv_m1s,HA,A2 ball motion,C7.3a,ha_bmot_dv,m1s,m/s,"change of ball velocity, outgoing vs incoming over 0.4 s"
+ha_bmot_dv_m5s,HA,A2 ball motion,C7.3a,ha_bmot_dv,m5s,m/s,"change of ball velocity, outgoing vs incoming over 0.4 s"
+ha_bmot_speed,HA,A2 ball motion,C7.3a,ha_bmot_speed,frame,m/s,"ball speed (centred difference, available frames)"
+ha_bmot_speed_chg2s,HA,A2 ball motion,C7.3a,ha_bmot_speed,chg2s,m/s,"ball speed (centred difference, available frames)"
+ha_bmot_speed_m1s,HA,A2 ball motion,C7.3a,ha_bmot_speed,m1s,m/s,"ball speed (centred difference, available frames)"
+ha_bmot_speed_m5s,HA,A2 ball motion,C7.3a,ha_bmot_speed,m5s,m/s,"ball speed (centred difference, available frames)"
+ha_near_dist_a,HA,A3 nearest players,"1.5, C7.4.8",ha_near_dist_a,frame,m,distance from the ball to the nearest player
+ha_near_dist_a_chg2s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_dist_a,chg2s,m,distance from the ball to the nearest player
+ha_near_dist_a_m1s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_dist_a,m1s,m,distance from the ball to the nearest player
+ha_near_dist_a_m5s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_dist_a,m5s,m,distance from the ball to the nearest player
+ha_near_dist_h,HA,A3 nearest players,"1.5, C7.4.8",ha_near_dist_h,frame,m,distance from the ball to the nearest player
+ha_near_dist_h_chg2s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_dist_h,chg2s,m,distance from the ball to the nearest player
+ha_near_dist_h_m1s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_dist_h,m1s,m,distance from the ball to the nearest player
+ha_near_dist_h_m5s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_dist_h,m5s,m,distance from the ball to the nearest player
+ha_near_margin,HA,A3 nearest players,"1.5, C7.4.8",ha_near_margin,frame,m,nearest away minus nearest home distance (+ = home closer)
+ha_near_margin_chg2s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_margin,chg2s,m,nearest away minus nearest home distance (+ = home closer)
+ha_near_margin_m1s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_margin,m1s,m,nearest away minus nearest home distance (+ = home closer)
+ha_near_margin_m5s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_margin,m5s,m,nearest away minus nearest home distance (+ = home closer)
+ha_near_n2m_a,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n2m_a,frame,players,players within 2.0 m of the ball
+ha_near_n2m_a_chg2s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n2m_a,chg2s,players,players within 2.0 m of the ball
+ha_near_n2m_a_m1s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n2m_a,m1s,players,players within 2.0 m of the ball
+ha_near_n2m_a_m5s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n2m_a,m5s,players,players within 2.0 m of the ball
+ha_near_n2m_h,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n2m_h,frame,players,players within 2.0 m of the ball
+ha_near_n2m_h_chg2s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n2m_h,chg2s,players,players within 2.0 m of the ball
+ha_near_n2m_h_m1s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n2m_h,m1s,players,players within 2.0 m of the ball
+ha_near_n2m_h_m5s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n2m_h,m5s,players,players within 2.0 m of the ball
+ha_near_n5m_a,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n5m_a,frame,players,players within 5.0 m of the ball
+ha_near_n5m_a_chg2s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n5m_a,chg2s,players,players within 5.0 m of the ball
+ha_near_n5m_a_m1s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n5m_a,m1s,players,players within 5.0 m of the ball
+ha_near_n5m_a_m5s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n5m_a,m5s,players,players within 5.0 m of the ball
+ha_near_n5m_h,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n5m_h,frame,players,players within 5.0 m of the ball
+ha_near_n5m_h_chg2s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n5m_h,chg2s,players,players within 5.0 m of the ball
+ha_near_n5m_h_m1s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n5m_h,m1s,players,players within 5.0 m of the ball
+ha_near_n5m_h_m5s,HA,A3 nearest players,"1.5, C7.4.8",ha_near_n5m_h,m5s,players,players within 5.0 m of the ball
+ha_carr_closing_a,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_closing_a,frame,m/s,change of nearest-player distance (negative = closing)
+ha_carr_closing_a_chg2s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_closing_a,chg2s,m/s,change of nearest-player distance (negative = closing)
+ha_carr_closing_a_m1s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_closing_a,m1s,m/s,change of nearest-player distance (negative = closing)
+ha_carr_closing_a_m5s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_closing_a,m5s,m/s,change of nearest-player distance (negative = closing)
+ha_carr_closing_h,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_closing_h,frame,m/s,change of nearest-player distance (negative = closing)
+ha_carr_closing_h_chg2s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_closing_h,chg2s,m/s,change of nearest-player distance (negative = closing)
+ha_carr_closing_h_m1s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_closing_h,m1s,m/s,change of nearest-player distance (negative = closing)
+ha_carr_closing_h_m5s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_closing_h,m5s,m/s,change of nearest-player distance (negative = closing)
+ha_carr_cos_a,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_cos_a,frame,cosine,cosine between ball and nearest-player movement (both moving)
+ha_carr_cos_a_chg2s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_cos_a,chg2s,cosine,cosine between ball and nearest-player movement (both moving)
+ha_carr_cos_a_m1s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_cos_a,m1s,cosine,cosine between ball and nearest-player movement (both moving)
+ha_carr_cos_a_m5s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_cos_a,m5s,cosine,cosine between ball and nearest-player movement (both moving)
+ha_carr_cos_h,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_cos_h,frame,cosine,cosine between ball and nearest-player movement (both moving)
+ha_carr_cos_h_chg2s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_cos_h,chg2s,cosine,cosine between ball and nearest-player movement (both moving)
+ha_carr_cos_h_m1s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_cos_h,m1s,cosine,cosine between ball and nearest-player movement (both moving)
+ha_carr_cos_h_m5s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_cos_h,m5s,cosine,cosine between ball and nearest-player movement (both moving)
+ha_carr_relspeed_a,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_relspeed_a,frame,m/s,ball speed relative to the nearest player (ball-minus-player velocity)
+ha_carr_relspeed_a_chg2s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_relspeed_a,chg2s,m/s,ball speed relative to the nearest player (ball-minus-player velocity)
+ha_carr_relspeed_a_m1s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_relspeed_a,m1s,m/s,ball speed relative to the nearest player (ball-minus-player velocity)
+ha_carr_relspeed_a_m5s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_relspeed_a,m5s,m/s,ball speed relative to the nearest player (ball-minus-player velocity)
+ha_carr_relspeed_h,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_relspeed_h,frame,m/s,ball speed relative to the nearest player (ball-minus-player velocity)
+ha_carr_relspeed_h_chg2s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_relspeed_h,chg2s,m/s,ball speed relative to the nearest player (ball-minus-player velocity)
+ha_carr_relspeed_h_m1s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_relspeed_h,m1s,m/s,ball speed relative to the nearest player (ball-minus-player velocity)
+ha_carr_relspeed_h_m5s,HA,A4 carrier relationship,"1.5, C7.3a, L1",ha_carr_relspeed_h,m5s,m/s,ball speed relative to the nearest player (ball-minus-player velocity)
+ha_pers_homecloser_next1s,HA,A5 persistence,"1.5, L1",ha_pers_homecloser_next1s,frame,share,share of the next 1 s (ball available) with home closer
+ha_pers_homecloser_next3s,HA,A5 persistence,"1.5, L1",ha_pers_homecloser_next3s,frame,share,share of the next 3 s (ball available) with home closer
+ha_pers_homecloser_past1s,HA,A5 persistence,"1.5, L1",ha_pers_homecloser_past1s,frame,share,share of the last 1 s (ball available) with home closer
+ha_pers_homecloser_past3s,HA,A5 persistence,"1.5, L1",ha_pers_homecloser_past3s,frame,share,share of the last 3 s (ball available) with home closer
+ha_pers_run_s,HA,A5 persistence,"1.5, L1",ha_pers_run_s,frame,s,"seconds the same team has stayed nearest within 2 m (+ home, - away)"
+ha_last_margin,HA,A6 last reliable relationship,"L3, C7.6",ha_last_margin,frame,m,last margin measured with an observed ball
+ha_last_margin_age_s,HA,A6 last reliable relationship,"L3, C7.6",ha_last_margin_age_s,frame,s,seconds since that last margin (capped)
+ha_ctx_compact_a,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_compact_a,frame,m,mean distance to team centroid
+ha_ctx_compact_a_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_compact_a,chg2s,m,mean distance to team centroid
+ha_ctx_compact_a_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_compact_a,m1s,m,mean distance to team centroid
+ha_ctx_compact_a_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_compact_a,m5s,m,mean distance to team centroid
+ha_ctx_compact_h,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_compact_h,frame,m,mean distance to team centroid
+ha_ctx_compact_h_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_compact_h,chg2s,m,mean distance to team centroid
+ha_ctx_compact_h_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_compact_h,m1s,m,mean distance to team centroid
+ha_ctx_compact_h_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_compact_h,m5s,m,mean distance to team centroid
+ha_ctx_cx_a,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_cx_a,frame,m,"team centroid x, + towards opponent goal"
+ha_ctx_cx_a_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_cx_a,chg2s,m,"team centroid x, + towards opponent goal"
+ha_ctx_cx_a_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_cx_a,m1s,m,"team centroid x, + towards opponent goal"
+ha_ctx_cx_a_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_cx_a,m5s,m,"team centroid x, + towards opponent goal"
+ha_ctx_cx_h,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_cx_h,frame,m,"team centroid x, + towards opponent goal"
+ha_ctx_cx_h_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_cx_h,chg2s,m,"team centroid x, + towards opponent goal"
+ha_ctx_cx_h_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_cx_h,m1s,m,"team centroid x, + towards opponent goal"
+ha_ctx_cx_h_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_cx_h,m5s,m,"team centroid x, + towards opponent goal"
+ha_ctx_fwdvel_a,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_fwdvel_a,frame,m/s,mean player velocity towards the opponent goal
+ha_ctx_fwdvel_a_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_fwdvel_a,chg2s,m/s,mean player velocity towards the opponent goal
+ha_ctx_fwdvel_a_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_fwdvel_a,m1s,m/s,mean player velocity towards the opponent goal
+ha_ctx_fwdvel_a_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_fwdvel_a,m5s,m/s,mean player velocity towards the opponent goal
+ha_ctx_fwdvel_h,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_fwdvel_h,frame,m/s,mean player velocity towards the opponent goal
+ha_ctx_fwdvel_h_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_fwdvel_h,chg2s,m/s,mean player velocity towards the opponent goal
+ha_ctx_fwdvel_h_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_fwdvel_h,m1s,m/s,mean player velocity towards the opponent goal
+ha_ctx_fwdvel_h_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_fwdvel_h,m5s,m/s,mean player velocity towards the opponent goal
+ha_ctx_opphalf_a,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_opphalf_a,frame,share,share of players in the opponent half
+ha_ctx_opphalf_a_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_opphalf_a,chg2s,share,share of players in the opponent half
+ha_ctx_opphalf_a_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_opphalf_a,m1s,share,share of players in the opponent half
+ha_ctx_opphalf_a_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_opphalf_a,m5s,share,share of players in the opponent half
+ha_ctx_opphalf_h,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_opphalf_h,frame,share,share of players in the opponent half
+ha_ctx_opphalf_h_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_opphalf_h,chg2s,share,share of players in the opponent half
+ha_ctx_opphalf_h_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_opphalf_h,m1s,share,share of players in the opponent half
+ha_ctx_opphalf_h_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_opphalf_h,m5s,share,share of players in the opponent half
+ha_ctx_speed_a,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_speed_a,frame,m/s,mean player speed
+ha_ctx_speed_a_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_speed_a,chg2s,m/s,mean player speed
+ha_ctx_speed_a_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_speed_a,m1s,m/s,mean player speed
+ha_ctx_speed_a_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_speed_a,m5s,m/s,mean player speed
+ha_ctx_speed_h,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_speed_h,frame,m/s,mean player speed
+ha_ctx_speed_h_chg2s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_speed_h,chg2s,m/s,mean player speed
+ha_ctx_speed_h_m1s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_speed_h,m1s,m/s,mean player speed
+ha_ctx_speed_h_m5s,HA,A7 team context,"1.6, C7.4.5, C7.6",ha_ctx_speed_h,m5s,m/s,mean player speed

@@ -1,0 +1,16 @@
+{
+  "_note": "Paths relative to the repository root. external/ and more-than-a-hack-2027/ are not part of the repository (see README).",
+  "handoff": "external/external-football-training-handoff-v1",
+  "degraded_frames": "external/external-football-training-handoff-v1/idsse_degraded_bar_like_v1_5seeds/bar_like_v1/seed_{seed:02d}/frames/{match}.parquet",
+  "raw_frames": "external/external-football-training-handoff-v1/external_tracking_raw_standardized_10matches/raw_standardized/frames/{match}.parquet",
+  "raw_objects": "external/external-football-training-handoff-v1/external_tracking_raw_standardized_10matches/raw_standardized/objects/{match}.parquet",
+  "labels": "external/external-football-training-handoff-v1/challenge_v3_labels_10matches/labels/{match}.csv",
+  "cleaner_root": ".",
+  "cleaner_thresholds": "config/cleaner_thresholds.json",
+  "scorer_dir": "more-than-a-hack-2027/evaluation",
+  "runs": "runs",
+  "cleaned_frames": "data/cleaned/frames/{unit}.parquet",
+  "cleaned_players": "data/cleaned/players/{match}.parquet",
+  "cleaned_reports": "data/cleaned/reports/{unit}.json",
+  "cleaned_summary": "data/cleaned/summary.csv"
+}

@@ -1,0 +1,125 @@
+{
+  "_note": "Fixed on 12 Nov 2026 BEFORE any Phase 4 result. Not tuned in Phase 4; any later change is chosen on the 6 dev folds only and logged in roadmap section 10.",
+  "_rounds": "Fixed number of boosting rounds, no early stopping: early stopping on the held-out match would let the validation fold choose the model.",
+  "d_model": {
+    "objective": "binary",
+    "learning_rate": 0.05,
+    "num_boost_round": 400,
+    "num_leaves": 31,
+    "min_data_in_leaf": 200,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0,
+    "seed": 7,
+    "deterministic": true,
+    "force_row_wise": true,
+    "num_threads": 2,
+    "verbose": -1
+  },
+  "ha_model": {
+    "_min_data_in_leaf": "larger than D: 5 seeds of the same match share players, so rows are less independent",
+    "objective": "binary",
+    "learning_rate": 0.05,
+    "num_boost_round": 400,
+    "num_leaves": 31,
+    "min_data_in_leaf": 500,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0,
+    "seed": 7,
+    "deterministic": true,
+    "force_row_wise": true,
+    "num_threads": 2,
+    "verbose": -1
+  },
+  "trivial_d_rule": {
+    "_why": "Roadmap 4.1 comparison: 'both teams slow'. Uses the slow-speed band already in features.json (physics, not fitted).",
+    "feature": "d_both_median_max_m1s",
+    "dead_below_mps": 2.0
+  },
+  "trivial_ha_rule": {
+    "_why": "Roadmap 4.2 comparison: last reliably measured nearest-player margin, + means home.",
+    "feature": "ha_last_margin"
+  },
+  "decision_threshold": 0.5,
+  "segmenter": {
+    "_note": "Grid fixed on 12 Nov 2026 BEFORE any Phase 5 result (roadmap 5.2). Costs are in log-odds units per switch. Chosen by mean spellF1 over the 6 dev folds (30 units).",
+    "_edge_rule": "If the best pair is on the edge of the grid, extend that axis by ONE doubling step once, and log it. No other search.",
+    "prob_clip": 0.0001,
+    "grid_cost_d": [
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "_grid_extension": "12 Nov: best pair (64, 8) was on the cost_d edge, so cost_d was extended once by one doubling (128), per _edge_rule.",
+    "grid_cost_h": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "cost_d": 64,
+    "cost_h": 8,
+    "_chosen": "Best mean spellF1 over the 30 dev units in the fixed grid: 0.5525 (roadmap 5.2, runs/phase5/grid.csv)."
+  },
+  "change_model": {
+    "_note": "Phase 6 round 1, fixed 12 Nov BEFORE any result. Target: a true H<->A change (inside a half, both frames live) within +-target_window_frames. Same features and LightGBM settings as ha_model, same 6 folds.",
+    "target_window_frames": 10,
+    "objective": "binary",
+    "learning_rate": 0.05,
+    "num_boost_round": 400,
+    "num_leaves": 31,
+    "min_data_in_leaf": 500,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0,
+    "seed": 7,
+    "deterministic": true,
+    "force_row_wise": true,
+    "num_threads": 2,
+    "verbose": -1
+  },
+  "change_cost": {
+    "_note": "Switching cost per frame = cost_h + weight * (-logit(p_c) - ref), floor min_cost; ref = median of -logit(p_c) on the fold's training rows. weight 0 = the current constant cost (control). cost_d stays 64.",
+    "_keep_rule": "Keep only if mean dev spellF1 rises by more than 0.016 (0.04 / sqrt 6) over the current 0.5525 AND improves at least 5 of the 6 folds; otherwise undo. Logged either way.",
+    "grid_weight": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "grid_cost_h": [
+      4,
+      8,
+      16
+    ],
+    "min_cost": 0.5,
+    "weight": null,
+    "cost_h": null,
+    "_result": "Round 1 UNDONE 12 Nov: best (weight 4, cost_h 16) 0.5612 vs control 0.5525, +0.009 < 0.016."
+  },
+  "transition_weighting": {
+    "_note": "Phase 6 round 2, fixed 12 Nov BEFORE any result. H/A model retrained with the same features and settings, but training rows within +-window_frames of a true H<->A change get weight w (others 1). Segmenter: cost_d 64, cost_h re-checked in grid_cost_h. Same keep rule as round 1 (vs 0.5525).",
+    "window_frames": 25,
+    "grid_weight": [
+      3,
+      10
+    ],
+    "grid_cost_h": [
+      4,
+      8,
+      16
+    ],
+    "weight": null,
+    "cost_h": null,
+    "_result": "Round 2 UNDONE 12 Nov: best (weight 10, cost_h 16) 0.5646 vs control 0.5525, +0.012 < 0.016."
+  }
+}

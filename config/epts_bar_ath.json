@@ -1,0 +1,27 @@
+{
+  "_note": "EPTS settings for the provided game BAR-ATH: per-match facts only (published in the organisers' games.py / DATA.md).",
+  "match_id": "BAR-ATH",
+  "meta": "more-than-a-hack-2027/data/tactical/BAR-ATH_tactical_atd.xml",
+  "raw": "more-than-a-hack-2027/data/tactical/BAR-ATH_tactical_atd.txt",
+  "pitch_m": [
+    105.3,
+    68.0
+  ],
+  "_pitch_m": "games.py: measured from corrected tracking (metadata says 105 x 68).",
+  "frame_id_offset": 1,
+  "n_frames": 199319,
+  "periods": [
+    [
+      11185,
+      90651
+    ],
+    [
+      110808,
+      190197
+    ]
+  ],
+  "_periods": "Published half boundaries in video frames (DATA.md). The metadata has no second half, so they must be given here.",
+  "origin": "centre",
+  "flip_y": true,
+  "_flip_y": "Mirror y so the axes match the external training tables (checked on Metrica Game 3: ball positions identical after flipping y)."
+}

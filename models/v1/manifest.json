@@ -1,0 +1,67 @@
+{
+  "version": "Barça Herizon submission (training v1)",
+  "frozen": "2026-11-13 03:27:13",
+  "trained_on": [
+    "idsse_J03WMX",
+    "idsse_J03WN1",
+    "idsse_J03WOH",
+    "idsse_J03WOY",
+    "idsse_J03WQQ",
+    "idsse_J03WR9"
+  ],
+  "never_used_for_training_or_choices": [
+    "idsse_J03WPY",
+    "metrica_game_1",
+    "metrica_game_2",
+    "metrica_game_3"
+  ],
+  "segmenter": {
+    "cost_d": 64,
+    "cost_h": 8,
+    "prob_clip": 0.0001
+  },
+  "phase6_fixes_used": false,
+  "python": "3.10.12",
+  "libraries": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "lightgbm": "4.7.0"
+  },
+  "determinism_check_passed": true,
+  "md5": {
+    "models/v1/d_model.txt": "5aada62cc4c34d91be4eb3e7d080f3ca",
+    "models/v1/ha_model.txt": "70d1abb4d322cee0218977bb19b1c169",
+    "config/models.json": "32974021f4d7971b89a46d4fe43ef1f2",
+    "config/features.json": "00b8652c293fe6b9f6fc6daeca3fe1ad",
+    "config/split.json": "c47c17a9410f8c7d6f857f1e5c6339f1",
+    "config/paths.json": "379ac27a03660133dec6f9ec328d1b7e",
+    "config/cleaner_thresholds.json": "05a6f8b58e6ff78a47be50a999ebff5e",
+    "config/epts_bar_ath.json": "a9b9110e5c9f9a83986310ceed10e210",
+    "docs/features_list.csv": "e33c02ebf7d0afb4b4a2b130ff84c21e",
+    "requirements.txt": "e07bc7f7cd321bb49c0be059563bed49",
+    "bh/__init__.py": "e318b348a53aed60349dadd5c63d3c11",
+    "bh/bar_ath.py": "022aa1f77592ed8d86e005299c0a721d",
+    "bh/baseline.py": "2a78ec1e42de759d45465e83a966b7a1",
+    "bh/config.py": "41f9dffdfd182b81f8b832ce7067f905",
+    "bh/data.py": "ffb8a70cf559c84b83e0d361c4617592",
+    "bh/features_common.py": "1c9163c71ff79c27d1613f885026298b",
+    "bh/features_d.py": "3bd031151a10668f05bb577eac6d9082",
+    "bh/features_ha.py": "8181b854b1a52bed3eda50a084da7435",
+    "bh/models.py": "8cdbe70bc2abe4d72ba459b228a3887f",
+    "bh/pipeline.py": "d1aa10bd3ad7a2594b69adc508ca56db",
+    "bh/scoring.py": "86238d5dcc08c5ad45810917dd413489",
+    "bh/segmenter.py": "122151c5f7842cc5fe06313a4673bd1c",
+    "atd_cleaner/__init__.py": "b70c612ad915734de9511f588c812504",
+    "atd_cleaner/clean.py": "cb40bd058115d6910392872a64439f7a",
+    "atd_cleaner/evaluate.py": "d3b4df3272784f52b14e686e8c5b95d2",
+    "atd_cleaner/io_epts.py": "35ced5619662775b47a8b07fcb9d455b",
+    "atd_cleaner/io_table.py": "f03c5dd582c6b28fe6d57c72d8488323",
+    "atd_cleaner/pipeline.py": "d757ae6c7dc0678d1d21dfefaf127560",
+    "atd_cleaner/quality.py": "74aeb6fb47b21a922517b6473df79ef9",
+    "atd_cleaner/speed_check.py": "37de2ed47b5f8e8d01a35744ce25f59d",
+    "atd_cleaner/tracking.py": "13cc0ef8b46a9d13af2d688c4aebc429"
+  }
+}

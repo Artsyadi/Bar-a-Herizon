@@ -1,0 +1,38 @@
+{
+  "_status": "Frozen for the submission. Physics-based values, checked on external matches only (cleaned degraded copies vs their originals); never chosen on the provided game.",
+  "ball": {
+    "max_speed_mps": 45.0,
+    "_max_speed_mps": "Hard shots ~30-35 m/s; margin because an airborne ball projected to the ground can appear faster. from real IDSSE speeds.",
+    "min_segment_frames": 5,
+    "_min_segment_frames": "A run of ball observations shorter than this, bounded by an impossible jump, is a false detection.",
+    "max_gap_frames": 12,
+    "_max_gap_frames": "Longest gap that may be interpolated (12 frames = 0.48 s at 25 fps).",
+    "max_endpoint_velocity_change_mps": 8.0,
+    "_max_endpoint_velocity_change_mps": "Rulebook 1.7 'compatible movement': skip a gap if the ball's velocity before and after differs by more than this.",
+    "velocity_window_frames": 3,
+    "max_gap_frames_without_velocity": 3,
+    "block_if_nearest_team_changes": true,
+    "interaction_radius_m": 2.0,
+    "_block_if_nearest_team_changes": "Rulebook 1.7 'no evidence of intervening interactions': skip a gap if the nearest player within interaction_radius_m belongs to different teams at its two ends.",
+    "track_break_confidence": 0.7,
+    "track_break_window_frames": 5,
+    "min_estimated_confidence": 0.3
+  },
+  "players": {
+    "max_speed_mps": 12.5,
+    "_max_speed_mps": "Fastest recorded human sprint peaks ~12.4 m/s.",
+    "min_jump_m": 1.0,
+    "speed_window_frames": 2,
+    "_speed_window_frames": "speed_derived_ms uses a centred difference over +/- this many frames (2 -> 0.16 s at 25 fps) to smooth tracking jitter. Values above max_speed_mps become NaN.",
+    "_min_jump_m": "A step must also be longer than this to count as a jump. Frame-to-frame jitter on a fast sprint gave 13-20 m/s one-frame steps on Metrica Game 3 (~0.5-0.8 m); identity jumps are metres.",
+    "min_segment_frames": 5
+  },
+  "duplicates": {
+    "max_distance_m": 0.35,
+    "min_frames": 12,
+    "only_when_team_exceeds_max": true,
+    "max_players_per_team": 11,
+    "_note": "Same-team tracks this close for this long are merged, but only in frames where that team has more than max_players_per_team tracks (a 12th track is the duplicate). Without the gate, ~99% of merges on clean IDSSE were genuine teammates at dead balls (walls, celebrations). Check genuine_points_merged_away in the evaluation.",
+    "chunk_frames": 3000
+  }
+}
